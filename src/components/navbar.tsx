@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import { HiOutlineBookOpen as Book } from "react-icons/hi2"
 
-
 const Navbar = () => {
    return (
       <div className="flex justify-between items-center bg-[#00224D] text-white px-10 py-5 h-[68px]">

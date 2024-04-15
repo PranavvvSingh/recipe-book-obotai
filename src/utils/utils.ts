@@ -3,7 +3,6 @@ export function stripHtml(htmlString: string) {
    return htmlString.replace(/<[^>]*>/g, "")
 }
 export function getFirstLine(text: string) {
-   // Split the string into an array of lines and return the first one
    return text.split(".")[0]+"."
 }
 
